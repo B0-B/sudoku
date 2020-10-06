@@ -1,0 +1,9 @@
+{
+    "name" : "sudoku",
+    "version" : "1.0",
+    "author" : "B0-B",
+    "author_email" : "alch3mist94@protonmail.com",
+    "description" : "Simple sudoku framework.",
+    "url" : "https://gitlab.com/alch3mist/sudoku",
+    "licence" : "GNU"
+}
