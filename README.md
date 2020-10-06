@@ -24,6 +24,8 @@ puzzle = np.array([
     [6, 0, 7, 4, 0, 5, 1, 0, 8]])
 
 # load the puzzle into sudoku object
+from sudoku import sudoku
+
 sdk = sudoku(puzzle)
 # or sdk.insert(puzzle)
 sdk.solve()
