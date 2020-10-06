@@ -78,3 +78,9 @@ sdk.show()
             ║   │   │ 4 ║   │   │ 6 ║ 7 │   │ 2 ║
             ╚═══╧═══╧═══╩═══╧═══╧═══╩═══╧═══╧═══╝
 ```
+
+pull out numpy array out of ```sudoku``` instance
+
+```python
+sudoku_array = sdk.panel
+```

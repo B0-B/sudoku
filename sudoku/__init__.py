@@ -205,26 +205,3 @@ class sudoku:
             self.solve()
             if self.isFull():
                 break
-
-        
-    
-
-
-                    
-
-puzzle = np.array([
-    [5, 8, 0, 6, 0, 2, 4, 3, 0],
-    [0, 0, 2, 0, 4, 3, 0, 5, 1],
-    [3, 6, 0, 5, 0, 1, 7, 8, 0],
-    [0, 3, 8, 0, 5, 0, 2, 0, 6],
-    [2, 5, 0, 1, 8, 4, 9, 7, 0],
-    [1, 7, 9, 3, 0, 6, 0, 4, 5],
-    [8, 0, 5, 2, 1, 0, 3, 0, 7],
-    [0, 1, 0, 7, 0, 8, 0, 2, 4],
-    [6, 0, 7, 4, 0, 5, 1, 0, 8]])
-
-# load the puzzle into sudoku object
-sdk = sudoku()
-# or sdk.insert(puzzle)
-sdk.new(fill=0.4)
-sdk.show()
