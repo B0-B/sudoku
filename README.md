@@ -5,6 +5,7 @@
 ```
 # Start
 ## Install
+Pull the repository and run in the root directory
 ```bash
 ~../sudoku$ pip3 install .
 ```
